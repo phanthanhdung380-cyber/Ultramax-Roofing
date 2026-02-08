@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Roofing</title>
+    <meta name="description" content="Thank you for contacting us.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+<a href="index.html" class="logo">Roofing</a>
+</div>
+                <button class="burger-menu" id="burgerMenu" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="nav" id="mainNav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="info.html">Information</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <section class="thank-you-section">
+            <div class="container-boxed">
+                <div class="thank-you-content">
+                    <h1>Thank You</h1>
+                    <p>Your message has been received. We will review your inquiry and respond during regular business hours.</p>
+                    <p>Response time typically ranges from one to three business days depending on inquiry complexity and current workload.</p>
+                    <p>If you have additional questions or need to provide more information, you may submit another inquiry through the contact form.</p>
+                    <div class="thank-you-actions">
+                        <a href="index.html" class="btn-primary">Return to Home</a>
+                        <a href="info.html" class="btn-secondary">View Information</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Roofing</h4>
+                    <p>Information resource about roofing services in Colorado Springs area.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="info.html">Information</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Policies</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                        <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <p>842 Ridgeview Drive, Suite B<br>Colorado Springs, CO 80903<br>United States</p>
+                    <p>Phone: +1 (719) 555-0128</p>
+                    <p>Email: contact@roofing.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Roofing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+<div class="cookie-banner cookie-pillbar" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Cookie Notice" aria-modal="true">
+  <div class="cookie-pillbar-row">
+    <div class="cookie-pillbar-left">
+      <img src="images/icon-flashing.jpg" alt="" aria-hidden="true" class="cookie-pillbar-ico">
+      <div class="cookie-pillbar-copy">
+        <p class="cookie-pillbar-title">Cookie Notice</p>
+        <p class="cookie-pillbar-text">
+          This website uses only strictly necessary cookies required for basic functionality.
+          We do not use cookies for analytics, tracking, advertising, or marketing purposes.
+        </p>
+      </div>
+    </div>
+    <div class="cookie-pillbar-actions">
+      <button id="cookieRejectBtn" type="button" class="cookie-pillbar-btn ghost">Close</button>
+      <button id="cookieAcceptBtn" type="button" class="cookie-pillbar-btn solid">OK</button>
+    </div>
+  </div>
+  <div class="cookie-pillbar-links">
+    <a href="privacy-policy.html" class="cookie-pillbar-link">Privacy Policy</a>
+    <span class="cookie-pillbar-sep">•</span>
+    <a href="cookie-policy.html" class="cookie-pillbar-link">Cookie Policy</a>
+  </div>
+</div>
+
+<script src="js/cookie.js"></script>
+
+    <div class="disclaimer-notice">
+        <div class="container">
+            <p>The content is provided for informational purposes only and does not constitute a recommendation, guidance, or professional advice.</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('burgerMenu').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.getElementById('mainNav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
